@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:omaf="urn:mpeg:mpegI:omaf:2017" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="static" profiles="urn:mpeg:dash:profile:isoff-live:2011" mediaPresentationDuration="PT33.9S" minBufferTime="PT1S">
+	<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:pf" omaf:projection_type="1"/>
+	<Period duration="PT33.9S">
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="1">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="7602176" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="1_qp24" bandwidth="559866" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg0.mp4" media="live/qp24/Track_1_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="1_qp28" bandwidth="343520" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg0.mp4" media="live/qp28/Track_1_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="1_qp34" bandwidth="160693" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg0.mp4" media="live/qp34/Track_1_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="1_qp38" bandwidth="96733" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg0.mp4" media="live/qp38/Track_1_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="2">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="4128768" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="2_qp24" bandwidth="557166" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg1.mp4" media="live/qp24/Track_2_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="2_qp28" bandwidth="337820" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg1.mp4" media="live/qp28/Track_2_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="2_qp34" bandwidth="162293" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg1.mp4" media="live/qp34/Track_2_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="2_qp38" bandwidth="100593" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg1.mp4" media="live/qp38/Track_2_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="3">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="1703936" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="3_qp24" bandwidth="471280" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg2.mp4" media="live/qp24/Track_3_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="3_qp28" bandwidth="293253" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg2.mp4" media="live/qp28/Track_3_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="3_qp34" bandwidth="148806" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg2.mp4" media="live/qp34/Track_3_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="3_qp38" bandwidth="96013" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg2.mp4" media="live/qp38/Track_3_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="4">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-1703936" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="4_qp24" bandwidth="433360" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg3.mp4" media="live/qp24/Track_4_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="4_qp28" bandwidth="267313" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg3.mp4" media="live/qp28/Track_4_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="4_qp34" bandwidth="135806" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg3.mp4" media="live/qp34/Track_4_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="4_qp38" bandwidth="87580" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg3.mp4" media="live/qp38/Track_4_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="5">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-4128768" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="5_qp24" bandwidth="585760" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg4.mp4" media="live/qp24/Track_5_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="5_qp28" bandwidth="367700" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg4.mp4" media="live/qp28/Track_5_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="5_qp34" bandwidth="186466" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg4.mp4" media="live/qp34/Track_5_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="5_qp38" bandwidth="118833" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg4.mp4" media="live/qp38/Track_5_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="6">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-7602176" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="6_qp24" bandwidth="752246" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg5.mp4" media="live/qp24/Track_6_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="6_qp28" bandwidth="472360" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg5.mp4" media="live/qp28/Track_6_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="6_qp34" bandwidth="233946" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg5.mp4" media="live/qp34/Track_6_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="6_qp38" bandwidth="146400" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg5.mp4" media="live/qp38/Track_6_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="7">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="7602176" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="7_qp24" bandwidth="492453" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg6.mp4" media="live/qp24/Track_7_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="7_qp28" bandwidth="306633" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg6.mp4" media="live/qp28/Track_7_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="7_qp34" bandwidth="151686" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg6.mp4" media="live/qp34/Track_7_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="7_qp38" bandwidth="95233" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg6.mp4" media="live/qp38/Track_7_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="8">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="4128768" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="8_qp24" bandwidth="517286" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg7.mp4" media="live/qp24/Track_8_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="8_qp28" bandwidth="317833" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg7.mp4" media="live/qp28/Track_8_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="8_qp34" bandwidth="155140" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg7.mp4" media="live/qp34/Track_8_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="8_qp38" bandwidth="97293" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg7.mp4" media="live/qp38/Track_8_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="9">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="1703936" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="9_qp24" bandwidth="771933" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg8.mp4" media="live/qp24/Track_9_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="9_qp28" bandwidth="480480" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg8.mp4" media="live/qp28/Track_9_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="9_qp34" bandwidth="239433" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg8.mp4" media="live/qp34/Track_9_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="9_qp38" bandwidth="152506" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg8.mp4" media="live/qp38/Track_9_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="10">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-1703936" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="10_qp24" bandwidth="398013" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg9.mp4" media="live/qp24/Track_10_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="10_qp28" bandwidth="249946" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg9.mp4" media="live/qp28/Track_10_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="10_qp34" bandwidth="128060" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg9.mp4" media="live/qp34/Track_10_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="10_qp38" bandwidth="86620" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg9.mp4" media="live/qp38/Track_10_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="11">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-4128768" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="11_qp24" bandwidth="398893" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg10.mp4" media="live/qp24/Track_11_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="11_qp28" bandwidth="248200" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg10.mp4" media="live/qp28/Track_11_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="11_qp34" bandwidth="126613" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg10.mp4" media="live/qp34/Track_11_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="11_qp38" bandwidth="82673" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg10.mp4" media="live/qp38/Track_11_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="12">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-7602176" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="12_qp24" bandwidth="604653" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg11.mp4" media="live/qp24/Track_12_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="12_qp28" bandwidth="370673" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg11.mp4" media="live/qp28/Track_12_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="12_qp34" bandwidth="184020" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg11.mp4" media="live/qp34/Track_12_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="12_qp38" bandwidth="116986" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg11.mp4" media="live/qp38/Track_12_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="13">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-10027008" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="13_qp24" bandwidth="575273" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg12.mp4" media="live/qp24/Track_13_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="13_qp28" bandwidth="366293" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg12.mp4" media="live/qp28/Track_13_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="13_qp34" bandwidth="188546" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg12.mp4" media="live/qp34/Track_13_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="13_qp38" bandwidth="121560" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg12.mp4" media="live/qp38/Track_13_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="14">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="10027008" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="14_qp24" bandwidth="634626" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg13.mp4" media="live/qp24/Track_14_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="14_qp28" bandwidth="382473" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg13.mp4" media="live/qp28/Track_14_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="14_qp34" bandwidth="180213" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg13.mp4" media="live/qp34/Track_14_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="14_qp38" bandwidth="111213" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg13.mp4" media="live/qp38/Track_14_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="15">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="2949120" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="15_qp24" bandwidth="510126" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg14.mp4" media="live/qp24/Track_15_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="15_qp28" bandwidth="278273" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg14.mp4" media="live/qp28/Track_15_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="15_qp34" bandwidth="118613" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg14.mp4" media="live/qp34/Track_15_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="15_qp38" bandwidth="70366" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg14.mp4" media="live/qp38/Track_15_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="16">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-2949120" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="16_qp24" bandwidth="220106" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg15.mp4" media="live/qp24/Track_16_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="16_qp28" bandwidth="130386" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg15.mp4" media="live/qp28/Track_16_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="16_qp34" bandwidth="65180" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg15.mp4" media="live/qp34/Track_16_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="16_qp38" bandwidth="44973" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg15.mp4" media="live/qp38/Track_16_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="17">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="8847360" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="17_qp24" bandwidth="353446" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg16.mp4" media="live/qp24/Track_17_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="17_qp28" bandwidth="216906" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg16.mp4" media="live/qp28/Track_17_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="17_qp34" bandwidth="113826" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg16.mp4" media="live/qp34/Track_17_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="17_qp38" bandwidth="77393" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg16.mp4" media="live/qp38/Track_17_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="18">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-8847360" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="18_qp24" bandwidth="445026" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg17.mp4" media="live/qp24/Track_18_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="18_qp28" bandwidth="282700" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg17.mp4" media="live/qp28/Track_18_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="18_qp34" bandwidth="150066" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg17.mp4" media="live/qp34/Track_18_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="18_qp38" bandwidth="102066" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg17.mp4" media="live/qp38/Track_18_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="19">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-10027008" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="19_qp24" bandwidth="473913" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg18.mp4" media="live/qp24/Track_19_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="19_qp28" bandwidth="302440" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg18.mp4" media="live/qp28/Track_19_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="19_qp34" bandwidth="154966" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg18.mp4" media="live/qp34/Track_19_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="19_qp38" bandwidth="98646" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg18.mp4" media="live/qp38/Track_19_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="20">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="10027008" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="20_qp24" bandwidth="366646" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg19.mp4" media="live/qp24/Track_20_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="20_qp28" bandwidth="224500" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg19.mp4" media="live/qp28/Track_20_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="20_qp34" bandwidth="113840" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg19.mp4" media="live/qp34/Track_20_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="20_qp38" bandwidth="77146" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg19.mp4" media="live/qp38/Track_20_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="21">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="8847360" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="21_qp24" bandwidth="243986" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg20.mp4" media="live/qp24/Track_21_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="21_qp28" bandwidth="137173" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg20.mp4" media="live/qp28/Track_21_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="21_qp34" bandwidth="66900" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg20.mp4" media="live/qp34/Track_21_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="21_qp38" bandwidth="47586" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg20.mp4" media="live/qp38/Track_21_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="22">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-8847360" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="22_qp24" bandwidth="162066" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg21.mp4" media="live/qp24/Track_22_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="22_qp28" bandwidth="102200" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg21.mp4" media="live/qp28/Track_22_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="22_qp34" bandwidth="54680" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg21.mp4" media="live/qp34/Track_22_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="22_qp38" bandwidth="38020" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg21.mp4" media="live/qp38/Track_22_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="23">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="2949120" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="23_qp24" bandwidth="253960" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg22.mp4" media="live/qp24/Track_23_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="23_qp28" bandwidth="150406" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg22.mp4" media="live/qp28/Track_23_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="23_qp34" bandwidth="76073" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg22.mp4" media="live/qp34/Track_23_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="23_qp38" bandwidth="51853" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg22.mp4" media="live/qp38/Track_23_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="24">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-2949120" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="24_qp24" bandwidth="261580" qualityRanking="1" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_384x384_qp24_seg23.mp4" media="live/qp24/Track_24_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="24_qp28" bandwidth="162620" qualityRanking="2" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_384x384_qp28_seg23.mp4" media="live/qp28/Track_24_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="24_qp34" bandwidth="88666" qualityRanking="3" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_384x384_qp34_seg23.mp4" media="live/qp34/Track_24_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="24_qp38" bandwidth="62213" qualityRanking="4" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_384x384_qp38_seg23.mp4" media="live/qp38/Track_24_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="25">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="7602176" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="25_qp24" bandwidth="1351120" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg0.mp4" media="live/qp24/Track_25_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="25_qp28" bandwidth="839700" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg0.mp4" media="live/qp28/Track_25_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="25_qp34" bandwidth="411260" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg0.mp4" media="live/qp34/Track_25_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="25_qp38" bandwidth="242826" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg0.mp4" media="live/qp38/Track_25_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="26">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="4128768" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="26_qp24" bandwidth="1434746" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg1.mp4" media="live/qp24/Track_26_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="26_qp28" bandwidth="821853" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg1.mp4" media="live/qp28/Track_26_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="26_qp34" bandwidth="391380" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg1.mp4" media="live/qp34/Track_26_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="26_qp38" bandwidth="244760" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg1.mp4" media="live/qp38/Track_26_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="27">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="1703936" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="27_qp24" bandwidth="1218906" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg2.mp4" media="live/qp24/Track_27_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="27_qp28" bandwidth="712520" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg2.mp4" media="live/qp28/Track_27_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="27_qp34" bandwidth="353246" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg2.mp4" media="live/qp34/Track_27_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="27_qp38" bandwidth="224826" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg2.mp4" media="live/qp38/Track_27_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="28">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-1703936" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="28_qp24" bandwidth="1049240" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg3.mp4" media="live/qp24/Track_28_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="28_qp28" bandwidth="632053" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg3.mp4" media="live/qp28/Track_28_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="28_qp34" bandwidth="310740" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg3.mp4" media="live/qp34/Track_28_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="28_qp38" bandwidth="198233" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg3.mp4" media="live/qp38/Track_28_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="29">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-4128768" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="29_qp24" bandwidth="1401686" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg4.mp4" media="live/qp24/Track_29_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="29_qp28" bandwidth="863713" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg4.mp4" media="live/qp28/Track_29_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="29_qp34" bandwidth="435333" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg4.mp4" media="live/qp34/Track_29_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="29_qp38" bandwidth="277000" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg4.mp4" media="live/qp38/Track_29_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="30">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-7602176" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="30_qp24" bandwidth="1788386" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg5.mp4" media="live/qp24/Track_30_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="30_qp28" bandwidth="1105433" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg5.mp4" media="live/qp28/Track_30_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="30_qp34" bandwidth="552266" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg5.mp4" media="live/qp34/Track_30_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="30_qp38" bandwidth="350046" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg5.mp4" media="live/qp38/Track_30_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="31">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="7602176" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="31_qp24" bandwidth="1181980" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg6.mp4" media="live/qp24/Track_31_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="31_qp28" bandwidth="731673" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg6.mp4" media="live/qp28/Track_31_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="31_qp34" bandwidth="366400" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg6.mp4" media="live/qp34/Track_31_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="31_qp38" bandwidth="231040" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg6.mp4" media="live/qp38/Track_31_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="32">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="4128768" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="32_qp24" bandwidth="1210513" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg7.mp4" media="live/qp24/Track_32_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="32_qp28" bandwidth="717100" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg7.mp4" media="live/qp28/Track_32_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="32_qp34" bandwidth="349726" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg7.mp4" media="live/qp34/Track_32_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="32_qp38" bandwidth="222106" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg7.mp4" media="live/qp38/Track_32_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="33">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="1703936" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="33_qp24" bandwidth="1860120" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg8.mp4" media="live/qp24/Track_33_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="33_qp28" bandwidth="1127986" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg8.mp4" media="live/qp28/Track_33_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="33_qp34" bandwidth="552326" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg8.mp4" media="live/qp34/Track_33_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="33_qp38" bandwidth="348020" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg8.mp4" media="live/qp38/Track_33_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="34">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-1703936" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="34_qp24" bandwidth="965400" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg9.mp4" media="live/qp24/Track_34_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="34_qp28" bandwidth="585640" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg9.mp4" media="live/qp28/Track_34_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="34_qp34" bandwidth="289233" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg9.mp4" media="live/qp34/Track_34_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="34_qp38" bandwidth="186880" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg9.mp4" media="live/qp38/Track_34_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="35">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-4128768" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="35_qp24" bandwidth="947933" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg10.mp4" media="live/qp24/Track_35_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="35_qp28" bandwidth="572013" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg10.mp4" media="live/qp28/Track_35_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="35_qp34" bandwidth="280600" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg10.mp4" media="live/qp34/Track_35_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="35_qp38" bandwidth="178460" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg10.mp4" media="live/qp38/Track_35_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="36">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-7602176" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="36_qp24" bandwidth="1354740" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg11.mp4" media="live/qp24/Track_36_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="36_qp28" bandwidth="828840" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg11.mp4" media="live/qp28/Track_36_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="36_qp34" bandwidth="409746" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg11.mp4" media="live/qp34/Track_36_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="36_qp38" bandwidth="262933" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg11.mp4" media="live/qp38/Track_36_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="37">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-10027008" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="37_qp24" bandwidth="1249406" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg12.mp4" media="live/qp24/Track_37_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="37_qp28" bandwidth="785813" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg12.mp4" media="live/qp28/Track_37_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="37_qp34" bandwidth="406026" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg12.mp4" media="live/qp34/Track_37_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="37_qp38" bandwidth="265640" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg12.mp4" media="live/qp38/Track_37_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="38">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="10027008" centre_elevation="1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="38_qp24" bandwidth="1605840" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg13.mp4" media="live/qp24/Track_38_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="38_qp28" bandwidth="974866" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg13.mp4" media="live/qp28/Track_38_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="38_qp34" bandwidth="455886" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg13.mp4" media="live/qp34/Track_38_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="38_qp38" bandwidth="273346" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg13.mp4" media="live/qp38/Track_38_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="39">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="2949120" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="39_qp24" bandwidth="1283420" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg14.mp4" media="live/qp24/Track_39_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="39_qp28" bandwidth="707153" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg14.mp4" media="live/qp28/Track_39_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="39_qp34" bandwidth="304140" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg14.mp4" media="live/qp34/Track_39_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="39_qp38" bandwidth="175420" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg14.mp4" media="live/qp38/Track_39_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="40">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-2949120" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="40_qp24" bandwidth="504533" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg15.mp4" media="live/qp24/Track_40_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="40_qp28" bandwidth="294493" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg15.mp4" media="live/qp28/Track_40_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="40_qp34" bandwidth="140000" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg15.mp4" media="live/qp34/Track_40_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="40_qp38" bandwidth="89646" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg15.mp4" media="live/qp38/Track_40_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="41">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="8847360" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="41_qp24" bandwidth="753246" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg16.mp4" media="live/qp24/Track_41_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="41_qp28" bandwidth="455333" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg16.mp4" media="live/qp28/Track_41_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="41_qp34" bandwidth="232580" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg16.mp4" media="live/qp34/Track_41_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="41_qp38" bandwidth="155726" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg16.mp4" media="live/qp38/Track_41_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="42">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-8847360" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="42_qp24" bandwidth="896393" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg17.mp4" media="live/qp24/Track_42_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="42_qp28" bandwidth="560553" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg17.mp4" media="live/qp28/Track_42_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="42_qp34" bandwidth="295073" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg17.mp4" media="live/qp34/Track_42_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="42_qp38" bandwidth="201000" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg17.mp4" media="live/qp38/Track_42_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="43">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-10027008" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="43_qp24" bandwidth="1124360" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg18.mp4" media="live/qp24/Track_43_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="43_qp28" bandwidth="717553" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg18.mp4" media="live/qp28/Track_43_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="43_qp34" bandwidth="371060" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg18.mp4" media="live/qp34/Track_43_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="43_qp38" bandwidth="240380" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg18.mp4" media="live/qp38/Track_43_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="44">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="10027008" centre_elevation="-1572864" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="44_qp24" bandwidth="843060" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg19.mp4" media="live/qp24/Track_44_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="44_qp28" bandwidth="508366" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg19.mp4" media="live/qp28/Track_44_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="44_qp34" bandwidth="251426" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg19.mp4" media="live/qp34/Track_44_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="44_qp38" bandwidth="164160" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg19.mp4" media="live/qp38/Track_44_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="45">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="8847360" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="45_qp24" bandwidth="594620" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg20.mp4" media="live/qp24/Track_45_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="45_qp28" bandwidth="333580" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg20.mp4" media="live/qp28/Track_45_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="45_qp34" bandwidth="149553" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg20.mp4" media="live/qp34/Track_45_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="45_qp38" bandwidth="96953" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg20.mp4" media="live/qp38/Track_45_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="46">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-8847360" centre_elevation="-3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="46_qp24" bandwidth="387586" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg21.mp4" media="live/qp24/Track_46_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="46_qp28" bandwidth="231073" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg21.mp4" media="live/qp28/Track_46_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="46_qp34" bandwidth="118253" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg21.mp4" media="live/qp34/Track_46_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="46_qp38" bandwidth="78793" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg21.mp4" media="live/qp38/Track_46_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="47">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="2949120" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="47_qp24" bandwidth="648373" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg22.mp4" media="live/qp24/Track_47_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="47_qp28" bandwidth="335353" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg22.mp4" media="live/qp28/Track_47_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="47_qp34" bandwidth="159606" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg22.mp4" media="live/qp34/Track_47_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="47_qp38" bandwidth="106086" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg22.mp4" media="live/qp38/Track_47_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc1.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="48">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:cc">
+				<omaf:cc shape_type="0">
+					<omaf:coverageInfo centre_azimuth="-2949120" centre_elevation="3538944" azimuth_range="1310720" elevation_range="1310720"/>
+				</omaf:cc>
+			</SupplementalProperty>
+			<Representation id="48_qp24" bandwidth="585773" qualityRanking="5" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp24/Garage_out_768x768_qp24_seg23.mp4" media="live/qp24/Track_48_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="48_qp28" bandwidth="346520" qualityRanking="6" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp28/Garage_out_768x768_qp28_seg23.mp4" media="live/qp28/Track_48_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="48_qp34" bandwidth="181100" qualityRanking="7" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp34/Garage_out_768x768_qp34_seg23.mp4" media="live/qp34/Track_48_Seg_$Number$.mp4"/>
+			</Representation>
+			<Representation id="48_qp38" bandwidth="125193" qualityRanking="8" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/qp38/Garage_out_768x768_qp38_seg23.mp4" media="live/qp38/Track_48_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="49">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="7602176" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag1,49 25 38 31 26 44 32 45 39 41 47 42 37 3 4 5 6 9 10 11 12 16 19 22 24 "/>
+			<Representation id="49" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors0.mp4" media="live/Ext_1_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="50">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="4128768" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag2,50 26 47 27 32 25 41 33 31 28 48 39 38 5 6 10 11 12 13 16 18 19 20 21 22 "/>
+			<Representation id="50" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors1.mp4" media="live/Ext_2_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="51">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="1703936" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag3,51 27 47 26 33 28 48 32 34 41 25 39 29 6 7 11 12 13 14 16 18 19 20 21 22 "/>
+			<Representation id="51" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors2.mp4" media="live/Ext_3_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="52">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-1703936" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag4,52 28 48 29 34 27 47 35 33 42 30 26 40 1 7 8 12 13 14 15 17 19 20 21 22 "/>
+			<Representation id="52" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors3.mp4" media="live/Ext_4_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="53">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-4128768" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag5,53 29 48 28 35 30 42 34 36 27 47 40 37 1 2 7 8 9 14 15 17 19 20 21 22 "/>
+			<Representation id="53" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors4.mp4" media="live/Ext_5_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="54">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-7602176" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag6,54 30 37 36 29 43 35 46 40 42 48 38 41 1 2 3 4 7 8 9 10 15 20 21 23 "/>
+			<Representation id="54" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors5.mp4" media="live/Ext_6_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="55">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="7602176" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag7,55 31 44 32 25 38 26 41 47 45 39 46 43 3 4 5 6 9 10 11 12 13 16 18 24 "/>
+			<Representation id="55" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors6.mp4" media="live/Ext_7_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="56">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="4128768" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag8,56 32 39 33 31 26 45 27 25 40 34 47 44 4 5 6 11 12 13 14 17 18 19 22 24 "/>
+			<Representation id="56" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors7.mp4" media="live/Ext_8_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="57">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="1703936" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag9,57 33 39 32 34 27 40 26 28 45 31 47 35 1 5 6 12 13 14 17 18 19 20 22 24 "/>
+			<Representation id="57" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors8.mp4" media="live/Ext_9_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="58">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-1703936" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag10,58 34 40 35 33 28 39 29 27 46 36 48 32 1 2 6 7 13 14 17 18 19 20 21 23 "/>
+			<Representation id="58" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors9.mp4" media="live/Ext_10_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="59">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-4128768" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag11,59 35 40 34 36 29 46 28 30 39 33 48 43 1 2 3 7 8 13 14 17 18 20 21 23 "/>
+			<Representation id="59" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors10.mp4" media="live/Ext_11_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="60">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-7602176" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag12,60 36 43 35 30 37 29 42 48 46 40 45 44 1 2 3 4 7 8 9 10 14 15 17 23 "/>
+			<Representation id="60" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors11.mp4" media="live/Ext_12_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="61">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-10027008" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag13,61 37 30 43 38 36 44 46 45 42 41 48 29 1 2 3 4 7 8 9 10 11 15 16 23 "/>
+			<Representation id="61" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors12.mp4" media="live/Ext_13_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="62">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="10027008" centre_elevation="1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag14,62 38 25 44 37 31 43 45 46 41 42 47 26 3 4 5 6 8 9 10 11 12 15 16 24 "/>
+			<Representation id="62" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors13.mp4" media="live/Ext_14_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="63">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="2949120" centre_elevation="-3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag15,63 39 32 33 45 31 26 27 40 34 46 35 44 1 4 5 6 12 13 14 17 18 19 23 24 "/>
+			<Representation id="63" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors14.mp4" media="live/Ext_15_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="64">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-2949120" centre_elevation="-3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag16,64 40 35 34 46 36 29 28 39 33 45 32 43 1 2 3 6 7 13 14 17 18 20 23 24 "/>
+			<Representation id="64" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors15.mp4" media="live/Ext_16_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="65">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="8847360" centre_elevation="3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag17,65 25 38 31 44 32 45 39 41 47 42 26 37 3 4 5 6 9 10 11 12 16 19 22 24 "/>
+			<Representation id="65" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors16.mp4" media="live/Ext_17_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="66">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-8847360" centre_elevation="3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag18,66 37 30 43 36 35 46 40 42 48 41 38 29 1 2 3 4 7 8 9 10 15 20 21 23 "/>
+			<Representation id="66" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors17.mp4" media="live/Ext_18_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="67">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-10027008" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag19,67 43 36 44 37 30 38 42 41 46 45 40 35 1 2 3 4 5 7 8 9 10 15 23 24 "/>
+			<Representation id="67" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors18.mp4" media="live/Ext_19_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="68">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="10027008" centre_elevation="-1572864" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag20,68 44 31 43 38 25 37 41 42 45 46 39 32 2 3 4 5 6 9 10 11 12 16 23 24 "/>
+			<Representation id="68" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors19.mp4" media="live/Ext_20_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="69">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="8847360" centre_elevation="-3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag21,69 31 44 25 38 26 41 47 45 46 39 32 43 3 4 5 6 9 10 11 12 13 16 18 24 "/>
+			<Representation id="69" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors20.mp4" media="live/Ext_21_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="70">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-8847360" centre_elevation="-3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag22,70 43 36 37 30 29 42 48 46 45 40 44 35 1 2 3 4 7 8 9 10 14 15 17 23 "/>
+			<Representation id="70" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors21.mp4" media="live/Ext_22_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="71">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="2949120" centre_elevation="3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag23,71 47 26 27 41 25 32 33 48 28 42 38 29 6 7 10 11 12 13 15 16 19 20 21 22 "/>
+			<Representation id="71" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors22.mp4" media="live/Ext_23_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet mimeType="video/mp4 profiles='hevd'" codecs="resv.podv+ercm.hvc2.2.L153.B0" segmentAlignment="1" subsegmentAlignment="1" id="72">
+			<Viewpoint schemeIdUri="urn:mpeg:dash:viewpoint:2011" value="vp1"/>
+			<EssentialProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:rwpk"/>
+			<SupplementalProperty schemeIdUri="urn:mpeg:mpegI:omaf:2017:srqr">
+				<omaf:sphRegionQuality quality_type="1" shape_type="0" remaining_area_flag="1" quality_ranking_local_flag="1">
+					<omaf:qualityInfo quality_ranking="1" orig_width="4608" orig_height="3072" centre_azimuth="-2949120" centre_elevation="3538944" azimuth_range="6553600" elevation_range="6553600"/>
+					<omaf:qualityInfo quality_ranking="2" orig_width="2304" orig_height="1532"/>
+				</omaf:sphRegionQuality>
+			</SupplementalProperty>
+			<SupplementalProperty schemeIdUri="urn:mpeg:dash:preselection:2016" value="PreselTag24,72 48 29 28 42 30 35 34 47 27 41 26 37 1 7 8 9 12 14 15 16 19 20 21 22 "/>
+			<Representation id="72" bandwidth="182133" frameRate="30">
+				<SegmentTemplate timescale="90000" duration="27000" startNumber="1" initialization="live/Garage_out_Extractors23.mp4" media="live/Ext_24_Seg_$Number$.mp4"/>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
