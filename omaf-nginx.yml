@@ -1,14 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: video360-server
+  name: omaf-server
 spec:
   selector:
     func: video360
-  type: NodePort
   ports:
     - port: 5000
-      nodePort: 31500
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -28,19 +26,19 @@ spec:
       volumes:
       - name: videodir 
         hostPath:
-          path: /home/nosus/workstation/edge/benchmarks/omaf-nginx-server/Garage_gb2
+          path: /home/nosus/workstation/edge/benchmarks/video360/omaf-nginx-server/Garage_gb2
           type: Directory
       - name: videodir-macos
         hostPath:
-          path: /home/nosus/workstation/edge/benchmarks/omaf-nginx-server/__MACOSX
+          path: /home/nosus/workstation/edge/benchmarks/video360/omaf-nginx-server/__MACOSX
           type: Directory
       - name: omaf-js
         hostPath:
-          path: /home/nosus/workstation/edge/benchmarks/omaf-nginx-server/omaf.js
+          path: /home/nosus/workstation/edge/benchmarks/video360/omaf-nginx-server/omaf.js
           type: Directory
       containers:
       - name: nginx
-        image: test:latest
+        image: simple-nginx:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
@@ -51,5 +49,3 @@ spec:
           name: videodir-macos
         - mountPath: /usr/share/nginx/html/omaf.js
           name: omaf-js
-#        command:
-#        - /bin/bash
