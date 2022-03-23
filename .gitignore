@@ -1,3 +1,5 @@
 goreply/gor
+goreply/*.gor
+!goreply/omaf.gor
 goreply/*.tar.gz
 .DS_Store
