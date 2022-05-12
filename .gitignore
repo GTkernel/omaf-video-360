@@ -3,3 +3,5 @@ goreply/*.gor
 !goreply/omaf.gor
 goreply/*.tar.gz
 .DS_Store
+httperf-client/*.log
+httperf-client/*.log_out
