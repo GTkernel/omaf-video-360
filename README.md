@@ -15,10 +15,10 @@ There are directories and YAML files for the implementation and K8s deployments:
     - For K8s deployment, before you run the YAML file, remember to change all the directory names and image to fit your environment.
 
     - For running by docker, you can refer following command:
-    ```
-    $ docker run -d -v $GARAGE_GB2_PATH:/usr/share/nginx/html/Garage_gb2 -v $MAXOSX_PATH:/usr/share/nginx/html/__MAXOSX -v $JAVASCRIPT_PATH:/usr/share/nginx/html/omaf.js video360-nginx:latest 
-    ```
-Mapping the three directories under `./omaf-nginx-server` to NGINX server container.
+        ```
+        $ docker run -d -v $GARAGE_GB2_PATH:/usr/share/nginx/html/Garage_gb2 -v $MAXOSX_PATH:/usr/share/nginx/html/__MAXOSX -v $JAVASCRIPT_PATH:/usr/share/nginx/html/omaf.js video360-nginx:latest 
+        ```
+        Mapping the three directories under `./omaf-nginx-server` to NGINX server container.
 
 - Clients: Two client simulations by **httperf** and **GoReplay**
     
