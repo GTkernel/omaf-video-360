@@ -1,13 +1,21 @@
 # MPEG-OMAF Video 360 
 
-This repo covers both the client and server components for the Video 360 usecase in MEC Kubernetes environment
+This project covers both the client and server components for the Video 360 usecase in MEC Kubernetes environment.
 
-Two directories and two YAML files are the implementation and deployments:
+The server-side implementation is based on [this project](https://github.com/fraunhoferhhi/omaf.js).
 
-- `./omaf-nginx-server` and `omaf-nginx.yml` are for the server-side applications
+There are directories and YAML files for the implementation and deployments:
+
+- Server: `./omaf-nginx-server` and `omaf-nginx.yml` are for the server-side applications
+```
+$ git submodule update --init --recursive
+```
+    
+
 - Two client simulations by **httperf** and **GoReplay**
    - `./httperf-client` and `httperf-client.yml` are for httperf
-   - `./goreply` covers the Dockerfile and the gor log for replaying. Run docker container with following entry command example:
+   - `./goreply` covers the Dockerfile and the gor log for replaying. 
+    After you build the image, run docker container with following example command:
    ```
-      $ /opt/gor/gor --input-file $PATH_OMAF_GOR --output-http="$OMAF_SERVER:PORT"
+      $ docker run -it -v $GOR_PATH:/tmp/omaf.gor gor-tool:latest /opt/gor/gor --input-file /tmp/omaf.gor --output-http="$OMAF_SERVER:PORT"
    ``` 
