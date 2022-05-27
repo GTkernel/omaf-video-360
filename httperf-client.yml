@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: httperf-client
+spec:
+  template:
+    metadata:
+      labels:
+        func: httperf
+    spec:
+      restartPolicy: Never
+      nodeName: granite
+      volumes:
+      - name: logfile
+        hostPath:
+          path: /home/nosus/workstation/edge/benchmarks/video360/httperf-client/2min.log_out
+          type: File
+      containers:
+      - name: httperf-client
+        image: httperf-client:latest
+        imagePullPolicy: Never
+        command: ["bash", "-c", "httperf --server omaf-server --port 5000 --wlog Y,/tmp/omaf-log --num-conns 1000"]
+        volumeMounts:
+          - mountPath: /tmp/omaf-log
+            name: logfile

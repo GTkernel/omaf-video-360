@@ -1,0 +1,3 @@
+[submodule "omaf-nginx-server/omaf.js"]
+	path = omaf-nginx-server/omaf.js
+	url = git@github.com:fraunhoferhhi/omaf.js.git

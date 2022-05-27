@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: omaf-server
+spec:
+  selector:
+    func: video360
+  ports:
+    - port: 5000
+      nodePort: 31500
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: video360-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      func: video360
+  template:
+    metadata:
+      labels:
+        func: video360
+    spec:
+      nodeName: basalt
+      volumes:
+      - name: videodir 
+        hostPath:
+          path: /mnt/kubernetes/video360/Garage_gb2
+          type: Directory
+      - name: videodir-macos
+        hostPath:
+          path: /mnt/kubernetes/video360/__MACOSX
+          type: Directory
+      - name: omaf-js
+        hostPath:
+          path: /mnt/kubernetes/video360/omaf.js
+          type: Directory
+      containers:
+      - name: nginx
+        image: granite:30500/omaf-nginx:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html/Garage_gb2
+          name: videodir
+        - mountPath: /usr/share/nginx/html/__MAXOSX
+          name: videodir-macos
+        - mountPath: /usr/share/nginx/html/omaf.js
+          name: omaf-js
