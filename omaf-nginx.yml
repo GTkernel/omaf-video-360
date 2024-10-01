@@ -24,7 +24,6 @@ spec:
       labels:
         func: video360
     spec:
-      nodeName: basalt
       volumes:
       - name: videodir 
         hostPath:

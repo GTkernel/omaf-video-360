@@ -10,10 +10,13 @@ $ git submodule update --init --recursive
 
 There are directories and YAML files for the implementation and K8s deployments:
 
-- Server: `./omaf-nginx-server` and `omaf-nginx.yml` are for the server-side applications
+- Server: for the server-side applications, related files are under `./omaf-nginx-server`.
 
-    - For K8s deployment, before you run the YAML file, remember to change all the directory names and image to fit your environment.
-
+    - First, building the Docker image, e.g.
+        ```
+        $ docker build -t video360-nginx .
+        ```
+    - For K8s deployment, before you run the YAML file, `omaf-nginx.yml`, remember to change all the directory names and image to fit your environment.
     - For running by docker, you can refer following command:
         ```
         $ docker run -d -v $GARAGE_GB2_PATH:/usr/share/nginx/html/Garage_gb2 -v $MAXOSX_PATH:/usr/share/nginx/html/__MAXOSX -v $JAVASCRIPT_PATH:/usr/share/nginx/html/omaf.js video360-nginx:latest 
@@ -23,8 +26,8 @@ There are directories and YAML files for the implementation and K8s deployments:
 - Clients: Two client simulations by **httperf** and **GoReplay**
     
     - `./httperf-client` and `httperf-client.yml` are for httperf
-    - `./goreply` covers the Dockerfile and the gor log for replaying. Currently don't have K8s client deployment.
-        After you build the image, run docker container with following example command:
+    - `./goreplay` covers the Dockerfile and the gor log for replaying API requests. 
+Currently, we don't support K8s client deployment. After you build the image, run docker container with following example command:
         ```
         $ docker run -it -v $GOR_PATH:/tmp/omaf.gor gor-tool:latest /opt/gor/gor --input-file /tmp/omaf.gor --output-http="$OMAF_SERVER:PORT"
         ``` 
